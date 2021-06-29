@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&display=swap');
+
+
+
+
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+header{
+  text-align: center;
+  padding: 1rem;
+ 
+}
+.background{
+position: absolute;
+top: 0;
+}
+.logo{
+  max-width: 7rem
+}
+
+/* button*/
+button{
+ 
+  width: 15rem;
+  height: auto;
+  padding: 1rem;
+  margin-bottom: 5vh;
+  display: grid;
+  border-radius: 3rem;
+  border: transparent;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+  margin-bottom: 2rem;
+  
+}
+
+
+.btn-ios{
+  background: hsl(171, 66%, 44%);
+}
+
+.btn-mac{
+  background: hsl(209, 88%, 44%);
+}
+
+/* main*/
+.pics{
+  max-width: 30rem;
+}
+
+.flex{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+
+.flex-item{
+  width: 1fr;
+}
+main{
+  padding-top: 5rem;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+
+}
+
+.svgs{
+width: 3rem;
+}
+
+.images{
+  width: 5rem;
+  margin-bottom: 6vh;
+}
+
+
+.outro{
+  padding: 1rem;
+  margin-bottom: 25vh;
+  text-align: center;
+}
+
+/* footer*/
+
+footer{
+  text-align: center;
+padding: 1rem;
+background:  hsl(210, 9%, 91%);
+}
+ul{
+  list-style-type: none;
+  line-height: 3;
+  margin-right: 3vw;
+}
+li a{
+  text-decoration: none;
+  color: black;
+  transition: 0.05s;
+}
+li a:hover{
+  color: hsl(171, 66%, 44%);
+
+}
+
+.icons{
+ width: 2rem;
+ margin-left: 5vw;
+}
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
